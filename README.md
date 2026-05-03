@@ -6,11 +6,12 @@
 ![Moses Emonde](./profile.jpg)
 
 ### Description
-This is a web application that calculates a user's birthday and gives them an Akan name based on the day of the week they were born. This is a traditional naming system used by the Akan people of Ghana.
+This application calculates the specific day of the week you were born and reveals your unique Akan name.
 
 ### Live Site
 You can visit the live application here:  
-**[https://moseee6.github.io/akan-name-generator/](https://moseee6.github.io/akan-name-generator/)**
+https://moseee6.github.io/akan-name-gen/
+
 
 ### Technologies Used
 * **HTML5:** For the page structure and form.
@@ -21,8 +22,8 @@ You can visit the live application here:
 ### Behavior Driven Development (BDD)
 | Input | Behavior | Output |
 | :--- | :--- | :--- |
-| Enter 19/05/2008 & Male | Calculates the day as Monday | "Your Akan name is: Kwadwo" |
-| Empty Form Submit | Trigger browser/custom validation | Alert: "Hey! Please select both a date and your gender." |
+| Enter users birthday | insert gender | your akan name is provided|
+| Empty Form Submit | Trigger browser/custom validation | Alert: Kwani umesahau kuweka date?Please fill everything! |
 | Click Reset | Reloads the current window | Clears all inputs and results |
 
 ### Setup Instructions
