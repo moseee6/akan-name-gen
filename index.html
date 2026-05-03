@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan Name Generator | Moses Emonde</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+        <a href="#" onclick="showSection('app')">The App</a>
+        <a href="#" onclick="showSection('description')">About Project</a>
+        <a href="#" onclick="showSection('author')">The Author</a>
+    </nav>
+
+    <div id="main-content">
+        
+        <div id="app-section" class="content-section">
+            <h1>Akan Name Generator</h1>
+            <p>Discover the traditional name of your soul.</p>
+            <div class="my-form">
+                <label>Select Your Birthday:</label><br>
+                <input type="date" id="date"><br><br>
+
+                <label>Select Gender:</label><br>
+                <input type="radio" name="gender" value="male" id="m"> Male
+                <input type="radio" name="gender" value="female" id="f"> Female
+                <br><br>
+
+                <button onclick="getResult()">Generate Name</button>
+            </div>
+            <div id="show-name"></div>
+        </div>
+
+        <div id="description-section" class="content-section" style="display:none;">
+            <h1>Project Description</h1>
+            <p>This application calculates the specific day of the week you were born and reveals your unique Akan name.</p>
+            <h3>BDD (How it works)</h3>
+            <p><strong>Input:</strong> Userss enter their birthda and selects their gender.</p>
+            <p><strong>Logic:</strong> Determinin the day of the week via JavaScript.</p>
+            <p><strong>Output:</strong> The  name  is  displayed after insrting detail.</p>
+        </div>
+
+        <div id="author-section" class="content-section" style="display:none;">
+            <div class="bio-container">
+                <h1 class="author-name">Moses Emonde</h1>
+                <p class="author-subtitle">Developer | Arsenal Fan | Visionary</p>
+                
+                <div class="bio-text">
+                    <p>
+                        Standing at <strong>6'1"</strong>, Moses Emonde is the definition of dark and nonchalant (though he's plenty 'chalant' around those he's comfy with). 
+                        Born in <strong>Nairobi</strong> on the <strong>19th of May, 2008</strong>, he carries the 
+                        composed energy of his very beautiful Akan name, <strong>Kwadwo</strong>. 
+                        [Moses loves himself a lot, so allow the self-glaze!] 
+                        Also, a massive shoutout to his awesome teacher, William—<em>William, stop smiling while reading this!</em>
+                    </p>
+                    <p>
+                        When he isn't at <strong>Moringa School</strong>, you'll likely find 
+                        him defending his <strong>Arsenal</strong> pride, deeply immersed in the world of football, 
+                        or catching up on loads of sleep. A man of few words but massive impact to those who know him well.
+                    </p>
+                </div>
+
+                <div style="margin-top: 30px; text-align: center;">
+                    <img src="THSN5147.jpg" alt="Moses Emonde" class="profile-img-large">
+                </div>
+
+                <div class="contact-footer">
+                    <p><strong>Reach out:</strong> 0733428661 | mosesemonde542@gmail.com</p>
+                    <p style="font-size: 11px; color: #D4AF37; margin-top: 10px;">#COYG 🔴⚪</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
